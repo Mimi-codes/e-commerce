@@ -1,0 +1,25 @@
+
+
+.hr {
+    border-top: 3px solid red;
+    width: 30px;
+    height:8px;
+}
+
+.discover {
+    display: flex;    
+background-image: linear-gradient(to right, rgba(143, 116, 116, 0.1), rgba(87, 84, 84, 0.5));
+}
+
+.perfect {
+    margin-right: 15rem;
+    margin-bottom: 3.5rem;
+}
+
+.main-discover {
+    font-size: 4rem;
+}
+
+.main-discover-para {
+    font-size: 1.2rem;
+}

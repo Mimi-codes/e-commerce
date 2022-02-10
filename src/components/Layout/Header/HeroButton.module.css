@@ -1,0 +1,9 @@
+.btn {
+    text-transform: uppercase;
+    background: rgb(155, 80, 10);
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    color: white;
+    border: none;
+    margin-top: 0.8rem;
+    width: 12rem;
+} 
