@@ -51,3 +51,13 @@
 .site-icon1 img, .site-icon2 img, .site-icon3 img, .site-icon4 img {
     width: 55%;
 }
+
+.para{
+  position: absolute;
+  bottom: 0.7rem;
+  margin-left: 6.3rem;
+  margin-top: rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(184, 111, 52);
+}

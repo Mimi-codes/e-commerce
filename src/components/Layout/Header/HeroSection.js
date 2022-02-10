@@ -8,19 +8,9 @@ import {BsBag} from 'react-icons/bs';
 
 function HeroSection() {
 return (
-    
+  <>
     <div className={classes['hero-section']}>
-<div className={classes.nav}>
- <h1 className={classes.logo}>Brand Name</h1>
-   <a href="#about">About</a>
-   <a href="#menu">Menu</a>
-   <a href="#reservations">Reservations</a>
-   <a href="#order">Order</a>
-   <a href="#contact">Contact</a>
-   <a href="#my_account"><FaUser />My Account</a>
-   <a href="#cart"><BsBag /> Cart</a>
-</div>
-
+    <NavBar />
 <div className={classes.discover}>
     <div className={classes.perfect}>
     <h2 className={classes['main-discover']} >The perfect cake every time!</h2>
@@ -32,6 +22,8 @@ return (
     <HeroImage />
   </div>
 </div>
+</>
+
 )
 }
 
