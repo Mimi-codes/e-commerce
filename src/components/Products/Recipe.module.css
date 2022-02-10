@@ -1,5 +1,10 @@
-.hr {
-    border-top: 3px solid red;
-    width: 30px;
-    height:8px;
-}
+.recipes {
+    
+    background-image: linear-gradient(to right, rgba(143, 116, 116, 0.1), rgba(87, 84, 84, 0.5));
+    }
+
+    .hr {
+        border-top: 3px solid red;
+        width: 30px;
+        height:8px;
+    }

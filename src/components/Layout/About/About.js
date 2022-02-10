@@ -6,7 +6,7 @@ import Recipe from '../../Products/Recipe';
 function About() {
 return (     
     <>  
-     <div className={classes.discover}>
+     <div className={classes.discover} id='#about'>
 <AboutImage />
 
     <div className={classes.perfect}>   

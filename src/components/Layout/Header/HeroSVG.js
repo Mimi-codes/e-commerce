@@ -13,14 +13,16 @@ function HeroSVG() {
 const svgStyles = {color: 'brown', fontSize: '5rem', marginLeft: '5.8rem', marginTop: '1.2rem'};
 
 return (
+    <>
     <div className={classes.svg}>
           <div className={classes['site-icon1']}><p className={classes.para}>Cookies</p><BiCookie style={svgStyles}/></div>
           <div className={classes['site-icon2']}><p className={classes.para}>Cake</p><BiCake style={svgStyles} /></div>
           <div className={classes['site-icon3']}><p className={classes.para}>Pie</p></div>
           <div className={classes['site-icon4']}><p className={classes.para}>Drink</p> </div>
-       <About><Recipe /></About>
-    
-    </div>
+       <About/>
+  
+    <Recipe />  </div>
+    </>
 )
 
 }
