@@ -20,8 +20,8 @@ return (
           <div className={classes['site-icon3']}><p className={classes.para}>Pie</p></div>
           <div className={classes['site-icon4']}><p className={classes.para}>Drink</p> </div>
        <About/>
-  
-    <Recipe />  </div>
+  <Recipe />
+      </div>
     </>
 )
 

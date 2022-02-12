@@ -1,10 +1,22 @@
 .recipes {
-    
-    background-image: linear-gradient(to right, rgba(143, 116, 116, 0.1), rgba(87, 84, 84, 0.5));
-    }
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(168, 167, 167, 0.5));
+     }
+
+     .recipe-content {
+         margin-left: 8rem;
+     }
 
     .hr {
         border-top: 3px solid red;
         width: 30px;
         height:8px;
     }
+
+    .hot-selling-recipe {
+        font-size: 3rem;
+    }
+
+    p .para {
+        font-size: 1.2rem;
+    }
+    
