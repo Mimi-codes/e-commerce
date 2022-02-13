@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import semantic-ui-css/semantic.min.css;
+ import 'semantic-ui-css/semantic.min.css';
 /*import {BrowserRouter} from 'react-router-dom'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Cakes from '../src/components/Products/pages/Cakes';
@@ -14,10 +14,12 @@ import ChinChin from '../src/components/Products/pages/ChinChin';
 import reportWebVitals from './reportWebVitals';
 */
 import reportWebVitals from './reportWebVitals';
+import ReservationForm from './components/Layout/Form/ReservationForm';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <ReservationForm /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

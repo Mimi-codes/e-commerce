@@ -7,6 +7,7 @@ import About from '../About/About';
 import {BiCookie, BiCake} from 'react-icons/bi';
 import Recipe from '../../Products/Recipe';
 import Testimonial from '../Testimonial/Testimonial';
+import FormText from '../Form/FormText';
 
 
 function HeroSVG() {
@@ -23,6 +24,7 @@ return (
        <About/>
   <Recipe />
   <Testimonial />
+  {/* <FormText /> */}
       </div>
     </>
 )
