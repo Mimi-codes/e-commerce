@@ -1,0 +1,39 @@
+.testimonial-section {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(168, 167, 167, 0.5));
+  
+}
+
+.hr {
+    border-top: 3px solid red;
+    width: 30px;
+    height:8px;
+    margin-top: 10rem;
+}
+
+.testimonial {
+    display: flex;   
+    margin-left: 10rem; 
+}
+
+.perfect {
+    margin-top: 20rem;
+    margin-right: 15rem;
+    margin-bottom: 3.5rem;
+}
+
+.hear {
+    font-size: 3rem;
+text-transform: capitalize;
+}
+
+.hear-para {
+    font-size: 1.2rem;
+}
+
+.customers img {
+    margin-top: 7rem;
+}
+
+.pro-card {
+    display: block;
+}

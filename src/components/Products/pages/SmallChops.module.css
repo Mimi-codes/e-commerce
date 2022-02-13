@@ -1,6 +1,12 @@
+
+.links a {
+    text-transform: uppercase;
+    margin: 0;
+}
+
 .card-container {
     display: flex;
-    margin-left: 6rem;
+    margin-left: 8rem;
 }
 
 .card {
@@ -11,7 +17,7 @@
 
 .card:nth-last-child(1) {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin-right: 6rem;
+    margin-right: 8rem;
 }
 
 .container {

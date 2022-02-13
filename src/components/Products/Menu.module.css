@@ -1,0 +1,31 @@
+.hr {
+    border-top: 3px solid red;
+    width: 30px;
+    height:8px;
+    margin-left: 53rem;
+    margin-top: 8rem;
+}
+
+.our-menu {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+margin-left: 2rem;
+text-transform: uppercase;
+}
+
+.links a:nth-child(1) {
+    margin-left: 48rem;
+}
+
+.links a:nth-last-child(1) {
+    margin-right: 5rem;
+}

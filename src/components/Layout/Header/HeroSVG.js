@@ -6,6 +6,7 @@ import svgIcon3 from '../../../assets/svg/Pink-Donut-PNG-HD-Image.png';
 import About from '../About/About';
 import {BiCookie, BiCake} from 'react-icons/bi';
 import Recipe from '../../Products/Recipe';
+import Testimonial from '../Testimonial/Testimonial';
 
 
 function HeroSVG() {
@@ -21,6 +22,7 @@ return (
           <div className={classes['site-icon4']}><p className={classes.para}>Drink</p> </div>
        <About/>
   <Recipe />
+  <Testimonial />
       </div>
     </>
 )

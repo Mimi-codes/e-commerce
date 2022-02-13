@@ -1,25 +1,21 @@
 .card-container {
     display: flex;
-    margin-left: 6rem;
+    margin-left: 8rem;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin-left: 2rem;
+    margin-right: 8rem;
     margin-top: 2rem;
+    width: 35rem;
+    margin-top: 10rem;
+    height: 35rem;
 }
 
-.card:nth-last-child(1) {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin-right: 6rem;
-}
 
 .container {
     padding: 2px 16px;
-}
-
-.card img {
-    width: 100%;
 }
 
 .container p {
@@ -34,4 +30,10 @@ color: goldenrod;
 
 .container p:nth-last-child(1), .container p:nth-last-child(2) {
     text-transform: uppercase;
+}
+
+.container h4 {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 5rem;
 }
