@@ -1,0 +1,17 @@
+.progress-bar {
+margin-top: 7rem;
+margin-left: 10rem;
+}
+
+label {
+    display: block;
+}
+
+progress {
+    background: #000;
+    margin-top: 1rem;
+    color: #000;
+    border-radius: 50%;
+    width: 35rem;
+}
+
