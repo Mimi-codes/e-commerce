@@ -17,7 +17,7 @@
     justify-content: center;
 }
 
-.links a {
+.menu .links a {
 margin-left: 2rem;
 text-transform: uppercase;
 }

@@ -18,7 +18,7 @@ return (
     </div>
     <div className={classes['pro-card']}>
     <TestimonialCard />
-    {/* <ProgressBar /> */}
+   <ProgressBar /> 
     </div>
   </div>
 </div>
