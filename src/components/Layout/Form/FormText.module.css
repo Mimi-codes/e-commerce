@@ -1,6 +1,5 @@
-.booking-section {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(168, 167, 167, 0.5));
-  
+
+.form {
 }
 
 .hr {
@@ -8,11 +7,13 @@
     width: 30px;
     height:8px;
     margin-top: 10rem;
+    text-transform: uppercase;
+    margin-left: 50rem;
 }
 
-.booking {
-    display: flex;   
-    margin-left: 10rem; 
+
+.booking {  
+    text-align: center;
 }
 
 .perfect {
@@ -23,9 +24,10 @@
 
 .book {
     font-size: 3rem;
-text-transform: capitalize;
 }
 
 .booking-para {
     font-size: 1.2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
 }

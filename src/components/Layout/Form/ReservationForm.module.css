@@ -1,0 +1,7 @@
+.row-one, .row-two {
+    display: flex;
+    margin-left: 3rem;
+    justify-content: center;
+}
+
+

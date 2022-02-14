@@ -2,9 +2,11 @@ import classes from './Testimonial.module.css';
 import TestimonialCard from './TestimonialCard';
 import cakeLoaf from '../../../assets/cakeloaf.jpg';
 import ProgressBar from './ProgressBar';
+import FormText from '../Form/FormText';
 
 function Testimonial() {
 return (
+  <>
     <div className={classes['testimonial-section']}>
    <div className={classes.testimonial}>
     <div className={classes.customers}>
@@ -21,7 +23,10 @@ return (
    <ProgressBar /> 
     </div>
   </div>
+  <FormText />
 </div>
+
+  </>
 )
 }
 
